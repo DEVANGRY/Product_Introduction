@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./images/Envirewnment.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product {
+    background-color: whitesmoke;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    margin: 200px auto 10px;
+    border-radius: 10px;
+}
+.product .image {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    opacity: 0.8;
+}
+.product .image:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.product .content {
+    padding: 30px 25px;
+}
+.product .brand {
+    font-family: Fraunces;
+}
+.product .slogan {
+    font-family: Fraunces;
+    font-weight: 700;
+    margin: 20px 0;
+    line-height: 0.9;
+    cursor: pointer;
+}
+.product .slogan:hover {
+    color: rgb(35, 240, 240);
+}
+.product .desc {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 500;
+}
+.content .row-price {
+    display: flex;
+    margin: 30px 0;
+    align-items: baseline;
+}
+.content .row-price .price {
+    color: green;
+    font-size: 32px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+.content .row-price .original-price {
+    padding-left: 15px;
+    text-decoration-line: line-through;
+}
+.content .add-card {
+    margin-left: 10px;
+    padding: 10px 50px;
+    border-radius: 5px;
+    background-color: rgb(78, 143, 78);
+    cursor: pointer;
+    border-style: none;
+    color: aliceblue;
+}
+.content .add-card:hover {
+    background-color: rgb(93, 236, 93);
+    color: black;
+}
+.attribution {
+    font-size: 20px;
+    color: rgb(248, 174, 174);
+}
+.attribution a {
+    color: aqua;
+    text-decoration: none;
+}
